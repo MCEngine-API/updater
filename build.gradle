@@ -57,9 +57,9 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.google.code.gson:gson:2.13.2'
     compileOnly 'org.spigotmc:spigot-api:1.21.10-R0.1-SNAPSHOT'
-    compileOnly 'org.mongodb:mongodb-driver-sync:5.6.1'
+
+    compileOnly 'com.google.code.gson:gson:2.13.2'
 }
 
 shadowJar {
@@ -113,3 +113,4 @@ publishing {
 }
 
 build.dependsOn(shadowJar)
+
